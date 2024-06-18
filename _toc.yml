@@ -1,0 +1,19 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: Home_Page
+chapters:
+- file: Courses
+  sections:
+  - file: courses/filtering_algorithms
+  - file: courses/signal_processing
+  - file: courses/image_processing
+  - file: courses/pattern_recognition
+    sections:
+    - file: courses/PR/GMM
+    - file: courses/PR/test01
+  - file: courses/machine_learning
+- file: Blog
+- file: Contact_Me
+- file: About_Me
